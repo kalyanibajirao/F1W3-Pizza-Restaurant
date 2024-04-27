@@ -1,0 +1,175 @@
+/* Reset Styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.restaurant-name {
+  font-size: 24px;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.social-icons img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+/* Main Content Styles */
+#main-content {
+  height: 600px;
+  background-image: url(./images/Pizza1.jpeg);
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the background image */
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#main-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.main-content p {
+  align-items: center;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff4500;
+}
+
+/* About Us Styles */
+#about {
+  padding: 80px 0;
+  background-color: black;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#about h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.about-content p {
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.about-content img {
+  flex: 1;
+}
+
+/* Menu Styles */
+#menu {
+  padding: 80px 0;
+  background-color: #000000;
+}
+#menu h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+#menu p {
+  margin-top: 20px;
+  color: #ffffff;
+  align-items: center;
+}
+
+#card {
+  width: 625px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#items {
+  align-items: center;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-content h5 {
+  color: #f2c94c;
+}
+
+/* carousel */
+#angle {
+  padding: 40px;
+  width: 114px;
+  height: 114px;
+}
+
+/* Gallary */
+
+/* Find Us Styles */
+#find-us {
+  background-color: #000000;
+  padding: 80px 0;
+}
+
+#find-us h2 {
+  color: #ffffff;
+  text-align: center;
+}
+.find-us-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.map {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* footer */
+footer{
+  background-color: #000000;
+  color: #ffffff;
+}
